@@ -1,0 +1,169 @@
+html,body{
+  margin: 0px;
+  overflow: hidden;
+
+
+
+  border:0px;
+  background: rgb(75,75,75);
+  background-size:cover;
+ font-family: sans-serif;
+}
+#play{
+  margin: 0 0 10px;
+  padding:0;
+  color:#fff;
+  font-size: 24px;
+}
+#background{
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to top right,white, black); /* Standard syntax (must be last) */
+}
+
+.box
+{
+  position:absolute;
+  top:60%;
+  left:51%;
+  width:500px;
+  transform: translate(-50%,-50%);
+}
+ .box input
+ {
+  position: relative;
+  display: inline-block;
+  font-size:20px;
+  box-sizing: border-box;
+  transition: 2s;
+}
+ .box input[type="text"]
+ {
+  background: #fff;
+  width:340px;
+  height:50px;
+  border:none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+input[type="submit"]
+{
+  position:relative;
+    border-radius:0  25px 25px 0;
+    width:150px;
+    height: 50px;
+    left:-5px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color:#fff;
+}
+input[type="submit"]:hover
+{
+  background:#ff5722;
+}
+#Popo{
+  position:absolute;
+  top:15px;
+  left:660px;
+  margin-bottom:30%;
+  font-family:sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  color:white;
+}
+canvas{
+  position:absolute;
+  transform-origin: center center;
+  left:0px;
+  top:0px;
+  border:0px;
+  background-color:rgb(75,75,75);
+         display: block;
+         cursor:crosshair;
+}
+
+.form input{
+  border: 1px solid black;
+}
+#gameDiv{
+  background:gray;
+}
+#chat-input{
+  position: absolute;
+  left:0px;
+  top:150px;
+}
+
+#chat-text{
+  position: absolute;
+  left:0px;
+  top:0px;
+  overflow-y:scroll;
+}
+/*.guns{
+  display:none;
+  font-weight: bold;
+background-color: brown;
+  width:75px;
+  height:25px;
+  text-align:center;
+  cursor: pointer;
+  border-radius: 30px;
+  padding:5px;
+}
+#chooseGun{
+  color:white;
+  background-color:black;
+  width:150px;
+  height:25px;
+  font-family:arial;
+  text-align:center;
+  cursor: pointer;
+  padding:5px;
+}*/
+@keyframes colors{
+  0%{color:black;}
+  5%{color:orange;}
+  10%{color:green;}
+  15%{color:yellow;}
+  20%{color:red;}
+  25%{color:coral;}
+  30%{color:purple;}
+  35%{color:DodgerBlue;}
+  40%{color:red;}
+  45%{color:yellow;}
+  50%{color:pink;}
+  55%{color:gray;}
+  60%{color:orange;}
+  65%{color:lightcoral;}
+  70%{color:black;}
+  75%{color:lightgreen;}
+  80%{color:blue;}
+  85%{color:purple;}
+  90%{color:green;}
+  95%{color:red;}
+  100%{color:yellow;}
+}
+@keyframes rainbow{
+0%{color: orange;}
+5%{color:green}
+10%{color: purple;}
+20%{color: red;}
+30%{color: CadetBlue;}
+40%{color: yellow;}
+50%{color: coral;}
+60%{color: green;}
+70%{color: cyan;}
+80%{color: DeepPink;}
+90%{color: DodgerBlue;}
+100%{color: orange;}
