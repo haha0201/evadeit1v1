@@ -5,7 +5,7 @@
   "description": "Discover the maps. Challenge enemies. Updates coming soon.",
   "main": "server/server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.16.4",
     "socket.io": "^2.2.0"
   },
 "engines":{
